@@ -1,0 +1,33 @@
+{% include header.html %}
+<body>
+	<div class="wrapper">
+		<div class="box">
+			<div class="row">
+				<div class="column col-sm-2" id="sidebar">
+
+					<a href="#" class="logo">
+						<img class="logo" src="{{site.data.config.root}}images/api_logo.png" />
+					</a>
+					<h4>mywellness cloud API</h4>
+					<br>
+
+
+					{% include summary.html %}
+
+					<br>
+
+					{% include dynamicmenu.html %}
+
+				</div>
+
+				<div class="column col-sm-10" id="main">
+					<div class="padding">
+						{{ content }}
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+
+	{% include footer.html %}

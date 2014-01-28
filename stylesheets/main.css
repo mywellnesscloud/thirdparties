@@ -1,0 +1,145 @@
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700);
+html {
+  font-size: 90%;
+  height: 100%; }
+  html body {
+    background: white;
+    height: 100%; }
+    html body .wrapper, html body .row {
+      height: 100%;
+      margin-left: 0;
+      margin-right: 0; }
+    html body .wrapper:before, html body .wrapper:after,
+    html body .column:before, html body .column:after {
+      content: "";
+      display: table; }
+    html body .wrapper:after,
+    html body .column:after {
+      clear: both; }
+    html body .column {
+      height: 100%;
+      overflow: auto;
+      *zoom: 1; }
+    html body .column .padding {
+      padding: 20px; }
+    html body .box {
+      bottom: 0;
+      /* increase for footer use */
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+      background-image: url("/assets/example/bg_suburb.jpg");
+      background-size: cover;
+      background-attachment: fixed; }
+    html body.homepage {
+      background: #41535d !important; }
+      html body.homepage h2, html body.homepage h4 {
+        color: white;
+        text-shadow: 1px 1px 0 #1a1a1a; }
+      html body.homepage .cloud_wrapper {
+        position: relative;
+        width: 465px;
+        height: 264px;
+        margin: 86px auto 20px auto; }
+        html body.homepage .cloud_wrapper .cloud_top {
+          position: absolute;
+          top: 0px;
+          right: 0px;
+          width: 465px;
+          height: 264px;
+          background: url("./../images/cloud.png") 0 0 no-repeat;
+          z-index: 99; }
+        html body.homepage .cloud_wrapper .cloud_middle {
+          position: absolute;
+          top: 0px;
+          right: 0px;
+          width: 465px;
+          height: 264px;
+          z-index: 2;
+          overflow: hidden; }
+          html body.homepage .cloud_wrapper .cloud_middle #gear_1 {
+            position: absolute;
+            top: 50px;
+            left: -40px;
+            width: 255px;
+            height: 255px;
+            background: url("http://cdn.mywellness.com/xchange/app_offline/img/gear_1.png") 0 0 no-repeat;
+            z-index: 3; }
+          html body.homepage .cloud_wrapper .cloud_middle #gear_2 {
+            position: absolute;
+            top: 180px;
+            left: 170px;
+            width: 121px;
+            height: 121px;
+            background: url("http://cdn.mywellness.com/xchange/app_offline/img/gear_2.png") 0 0 no-repeat;
+            z-index: 4; }
+          html body.homepage .cloud_wrapper .cloud_middle #gear_3 {
+            position: absolute;
+            top: 90px;
+            left: 230px;
+            width: 232px;
+            height: 232px;
+            background: url("http://cdn.mywellness.com/xchange/app_offline/img/gear_3.png") 0 0 no-repeat;
+            z-index: 3; }
+          html body.homepage .cloud_wrapper .cloud_middle #gear_4 {
+            position: absolute;
+            top: -96px;
+            left: 160px;
+            width: 257px;
+            height: 257px;
+            background: url("http://cdn.mywellness.com/xchange/app_offline/img/gear_4.png") 0 0 no-repeat;
+            z-index: 2; }
+        html body.homepage .cloud_wrapper .cloud_under {
+          position: absolute;
+          top: 0px;
+          right: 0px;
+          width: 465px;
+          height: 264px;
+          background: url("http://cdn.mywellness.com/xchange/app_offline/img/cloud_bg.png") 0 0 no-repeat;
+          z-index: 1; }
+    html body .wrapper {
+      height: 100%;
+      padding: 0 15px;
+      font-family: 'Open Sans', sans-serif; }
+      html body .wrapper #sidebar {
+        background: #41535d;
+        color: white; }
+        html body .wrapper #sidebar a {
+          color: white; }
+        html body .wrapper #sidebar h4 {
+          text-shadow: 1px 1px 0 #1a1a1a; }
+        html body .wrapper #sidebar .logo {
+          margin-top: 15px;
+          width: 150px;
+          height: auto; }
+        html body .wrapper #sidebar #api {
+          margin-top: 40px; }
+          html body .wrapper #sidebar #api a {
+            font-weight: 400; }
+        html body .wrapper #sidebar #resources {
+          margin-top: 20px; }
+          html body .wrapper #sidebar #resources ul {
+            margin: 0 0 0 10px; }
+        html body .wrapper #sidebar #accordion div {
+          padding: 5px 0; }
+          html body .wrapper #sidebar #accordion div span {
+            float: right; }
+          html body .wrapper #sidebar #accordion div div ul li {
+            padding: 5px; }
+      html body .wrapper #main .line .desc-area {
+        background: white;
+        padding-bottom: 20px; }
+        html body .wrapper #main .line .desc-area h4 {
+          margin-top: 80px; }
+        html body .wrapper #main .line .desc-area small {
+          display: block;
+          margin-bottom: 20px; }
+        html body .wrapper #main .line .desc-area pre, html body .wrapper #main .line .desc-area code {
+          background: none;
+          border: none;
+          color: #1a1a1a;
+          margin: 30px 0 30px -190px;
+          padding: 0;
+          clear: both;
+          float: none; }

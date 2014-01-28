@@ -1,2 +1,4 @@
-thirdparties
-============
+api
+===
+
+mywellnesscloud public apis
