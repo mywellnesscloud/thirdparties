@@ -1,5 +1,5 @@
 mainpage: summary
-root: /api/
-root_remote: /
+root_remote: /api/
+root: /
 sections: ['Authentication','User','ActivityStream','Activity','TrainingProgram','WorkoutSession']
 title: ora
